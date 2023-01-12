@@ -145,6 +145,23 @@
         .search-form:focus-within .search-button{
             color: var(--color-primary);
         }
+
+        .main-content {
+            background:blue;
+            padding-top: 0;
+            /* display: ; */
+        }
+
+        .main-content-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+            gap: var(--spacing-gutter-large)
+        }
+
+        .temp {
+            height: 40rem;
+            background: red;
+        }
     </style>
     <title>Recipes</title>
 </head>
